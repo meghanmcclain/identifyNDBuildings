@@ -1,0 +1,11 @@
+For my project, I have taken 20-30 photos using my iPhone of 3 buildings on campus at various angles and distances.
+The buildings are the main building (dome), south dining hall, and duncan student center.
+
+All of the photos were taken with cloudy skies in the background so it might be a little darker than if it had been sunny out. 
+I tried to find three buildings on campus that did not have big objects (trees, tents, etc) in front of them that would block the building.
+
+Moving forward, I will try to find a pre-trained model (perhaps VGG (Visual Geometry Group) or ResNet-18) and use its 
+embeddings as features. These embeddings can then be classified (with the SVM (Support Vector Machines) classifier) and 
+it's implemented in Python to tell which building is being shown. 
+
+SVM is supervised learning used for classification. 
